@@ -1,0 +1,35 @@
+.age-calculator-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .date-selectors {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  select {
+    width: 30%;
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+  }
+  

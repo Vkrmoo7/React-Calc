@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Basic Calculator",
+    "description": "Perform basic arithmetic operations easily.",
+    "icon": "calculator",
+    "link": "/calculators/basic"
+  },
+  {
+    "title": "BMI Calculator",
+    "description": "Calculate your Body Mass Index effortlessly.",
+    "icon": "weight",
+    "link": "/calculators/bmi"
+  },
+  {
+    "title": "Age Calculator",
+    "description": "Calculate your age in years, months, and days.",
+    "icon": "birthday-cake",
+    "link": "/calculators/age"
+  },
+  
+  {
+    "title": "Expense Manager",
+    "description": "Track your expenses and manage your budget effectively.",
+    "icon": "money-bill-wave",
+    "link": "/calculators/expense"
+  }
+]

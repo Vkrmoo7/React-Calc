@@ -1,0 +1,63 @@
+/* General Styling */
+.about-page {
+    padding: 2rem;
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+  }
+  
+  .about-page h2 {
+    text-align: center; /* Center the heading */
+    font-size: 2.5rem; /* Larger font for the title */
+    color: #333; /* Dark gray for text */
+    margin-bottom: 1rem; /* Spacing below the title */
+  }
+  
+  .about-page p {
+    font-size: 1.2rem; /* Readable font size for paragraph */
+    line-height: 1.6; /* Better spacing between lines */
+    color: #555; /* Medium gray for text */
+    text-align: center; /* Center text for better presentation */
+    margin-bottom: 1.5rem; /* Spacing below paragraphs */
+  }
+  
+  /* Social Media Links */
+  .about-page a {
+    display: inline-block; /* Inline-block to allow margin */
+    margin: 0 10px; /* Spacing between links */
+    font-size: 1.2rem; /* Font size for links */
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 0.5rem; /* Padding for better click area */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth background transition on hover */
+  }
+  
+  .about-page a:hover {
+    background-color: #e2e6ea; /* Light gray background on hover */
+    color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Icon Styles */
+  .about-page i {
+    margin-right: 8px; /* Space between icon and text */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .about-page {
+      padding: 1rem; /* Less padding on smaller screens */
+    }
+  
+    .about-page h2 {
+      font-size: 2rem; /* Smaller heading on mobile */
+    }
+  
+    .about-page p {
+      font-size: 1rem; /* Smaller paragraph text */
+    }
+  
+    .about-page a {
+      font-size: 1rem; /* Smaller link size */
+    }
+  }
+  
